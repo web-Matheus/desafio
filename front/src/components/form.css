@@ -1,0 +1,54 @@
+div{
+    display: flex;
+    
+}
+.notas{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
+.formulario{
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% );
+    margin: 10vh ;
+    width: 30rem;
+    height: 30rem;
+    border-radius: 10px;
+   
+}
+.formulario input{
+   padding: 10px;
+   width: 20rem;
+   margin-top: 10px;
+   border: none;
+   box-shadow: 6px 6px 6px 6px rgb(197, 184, 184);
+   border-radius: 10px;
+}
+.formulario .msg{
+    width:20rem;
+    height: 10rem;
+    border: none;
+    box-shadow: 6px 6px 6px 6px rgb(197, 184, 184);
+    border-radius: 10px;
+}
+.formulario button{
+    padding: 10px;
+    width: 15rem;
+    margin-top: 10px;
+    background-color: rgb(231, 47, 47);
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.anotação{
+    box-shadow: 0 6px 6px hsl(0deg 0% 0% );
+    margin: 10vh 10px 10px 0;
+    width: 20rem;
+    height: 15rem;
+    border-radius: 10px;
+}
+.anotação h1{
+    font-size: 2rem;
+}
+.anotação p{
+    font-size: 1rem;
+}
